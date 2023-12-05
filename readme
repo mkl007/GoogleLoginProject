@@ -1,3 +1,21 @@
 # This sample is for testing, oauth folder doesn't work 
 # use nodemon for server rendering
 
+#.env setup
+
+click on the Google dev console: https://console.cloud.google.com/apis/credentials, create 
+ID client, in the 
+
+authorized uri: http://localhost:5000/auth/google/callback
+Get the Client ID and se Secret ID to set it up in your .env, watch the link below:
+
+https://www.youtube.com/watch?v=OKMgyF5ezFs
+
+Once all above is set, follow the steps to run the server
+
+
+# To start the projet 
+#1. use nodemon server.js
+#2. copy localhost:5000/auth/google
+#3. After that you'll get the user information provided from Google account. 
+
